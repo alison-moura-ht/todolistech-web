@@ -49,6 +49,7 @@ export default {
         this.$router.push("/home");
       } catch (error) {
         alert(error.message);
+        console.log(error)
       }
     },
   },
